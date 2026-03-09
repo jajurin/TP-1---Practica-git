@@ -37,8 +37,8 @@ const setLoading = (isLoading) => {
     nextPhraseBtn.textContent = isLoading ? 'un que?' : defaultButtonLabel;
 
     statusEl.textContent = isLoading
-    ? 'Fabricando una excusa premium…'
-    : 'Excusa lista para usar';
+    ? 'Fabricando un autoferrari…'
+    : 'Gorra lista para usar';
 };
 
 const setMetaTime = () => {
