@@ -34,7 +34,7 @@ const setLoading = (isLoading) => {
     cardEl.classList.toggle('is-loading', isLoading);
     document.body.classList.toggle('is-fetching', isLoading);
     cardEl.setAttribute('aria-busy', String(isLoading));
-    nextPhraseBtn.textContent = isLoading ? 'Buscando excusa...' : defaultButtonLabel;
+    nextPhraseBtn.textContent = isLoading ? 'un que?' : defaultButtonLabel;
 
     statusEl.textContent = isLoading
     ? 'Fabricando una excusa premium…'
